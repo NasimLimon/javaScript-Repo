@@ -26,7 +26,7 @@ console.log(typeof undefined)
 console.log("conversion  ")
 let score = "234"; //NULL=>0,undefined=>NaN
 console.log(typeof score)
-let valueInNumber = Number(score);
+let valueInNumber = Number(score);//use capital letter in conversion like Boolean ,string
 console.log(typeof valueInNumber);
 let score1 = "234asd";
 console.log(typeof score)//string
